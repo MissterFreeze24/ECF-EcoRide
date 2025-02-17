@@ -1,0 +1,28 @@
+/* Styles pour la charte graphique */
+:root {
+    --primary-color: #4CAF50; /* Vert écologique */
+    --secondary-color: #45a049; /* Vert plus foncé */
+    --background-color: #f4f4f4; /* Fond clair */
+    --text-color: #333; /* Texte principal */
+    --white: #ffffff; /* Blanc */
+    --black: #000000; /* Noir */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}

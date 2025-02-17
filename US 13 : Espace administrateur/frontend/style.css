@@ -1,0 +1,42 @@
+/* Styles pour l'espace administrateur */
+.admin-space {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.admin-space h2 {
+    color: #4CAF50;
+}
+
+.admin-space table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-space th, .admin-space td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.admin-space th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.admin-space button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.admin-space button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,25 @@
+/* Styles pour les boutons et interactions */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button-secondary {
+    background-color: #333;
+    color: white;
+}
+
+.button-secondary:hover {
+    background-color: #555;
+}

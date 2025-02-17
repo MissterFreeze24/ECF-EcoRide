@@ -1,0 +1,39 @@
+/* Styles pour l'espace utilisateur */
+.user-space {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.user-space h2 {
+    color: #4CAF50;
+}
+
+.user-space label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.user-space input, .user-space select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-space button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.user-space button:hover {
+    background-color: #45a049;
+}

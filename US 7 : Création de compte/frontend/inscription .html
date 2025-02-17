@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoRide - Accueil</title>
+    <title>EcoRide - Inscription</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,8 +11,8 @@
         <h1>EcoRide</h1>
         <nav>
             <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#covoiturages">Covoiturages</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="covoiturages.html">Covoiturages</a></li>
                 <li><a href="#connexion">Connexion</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -20,13 +20,16 @@
     </header>
 
     <main>
-        <section id="accueil">
-            <h2>Bienvenue sur EcoRide</h2>
-            <p>EcoRide est une plateforme de covoiturage écologique et économique.</p>
-            <img src="eco-friendly.jpg" alt="Eco-friendly">
-            <form id="search-form">
-                <input type="text" id="search" placeholder="Rechercher un itinéraire...">
-                <button type="submit">Rechercher</button>
+        <section id="inscription">
+            <h2>Créer un compte</h2>
+            <form id="inscription-form">
+                <label for="pseudo">Pseudo :</label>
+                <input type="text" id="pseudo" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" required>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" required>
+                <button type="submit">S'inscrire</button>
             </form>
         </section>
     </main>

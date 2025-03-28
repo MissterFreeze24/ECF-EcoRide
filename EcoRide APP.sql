@@ -1,0 +1,6 @@
+CREATE TABLE covoiturages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    depart VARCHAR(255) NOT NULL,
+    arrivee VARCHAR(255) NOT NULL,
+    date DATE NOT NULL
+);
